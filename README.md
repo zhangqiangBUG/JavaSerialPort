@@ -11,7 +11,7 @@ WindowBuilder
 ## 工具包
 AbsoluteLayout.jar <br>  
 swing-layout-1.0.3.jar  //前两个位布局包 <br>  
-RXTXcomm.jar            //Java对串口编程的API包（64位） <br>  
+RXTXcomm.jar            //Java对串口编程的API包（64位），放一份至jre-lib-ext下面 <br>  
 beautyeye_lnf.jar       //针对swing界面的优化包 <br>  
 其他包根据需要添加，比如mysql-connector-java.jar等
 
