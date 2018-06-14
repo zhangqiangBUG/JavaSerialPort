@@ -2,20 +2,20 @@
 Java实现串口通信：数据接收、发送 <br>  
 对swing界面的优化
 
-# 环境、工具
+## 环境、工具
 windows 10  64位 <br>  
 JDK1.7 <br>  
 Eclipse Java EE IDE for Web Developers(Version: Kepler Service Release 2) <br>  
 WindowBuilder
 
-# 工具包
+## 工具包
 AbsoluteLayout.jar <br>  
 swing-layout-1.0.3.jar  //前两个位布局包 <br>  
 RXTXcomm.jar            //Java对串口编程的API包（64位） <br>  
 beautyeye_lnf.jar       //针对swing界面的优化包 <br>  
-其他包根据需要添加，比如jdbc等
+其他包根据需要添加，比如mysql-connector-java.jar等
 
-# 步骤
+## 步骤
 1.新建Java Project name=JavaSerialPort <br>  
 2.新建lib文件存放工具包,新建新项目后需要通过Build Path加入项目 <br>  
 3.新建resources文件存放配置文件，如jdbc.properties、config.properties <br>  
