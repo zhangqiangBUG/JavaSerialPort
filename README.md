@@ -23,7 +23,7 @@ httpcore-4.4.4.jar  用于实现get、post请求<br>
 ## 步骤
 1.新建Java Project name=JavaSerialPort <br>  
 2.新建lib文件存放工具包,新建新项目后需要通过Build Path加入项目 <br>  
-3.新建resources文件存放配置文件，如jdbc.properties、config.properties <br>  
+3.新建config文件存放配置文件，如jdbc.properties、config.properties <br>  
 4.项目结构src下建立不同性质的包 <br>  
   exception -异常包 <br>  
   manage -串口处理包 <br>  
