@@ -1,6 +1,8 @@
 # 概况
 Java实现串口通信：数据接收、发送 <br>  
-对swing界面的优化
+swing原始界面的优化 <br>  
+MySQL数据库连接 <br>  
+httpclient-get\post请求 
 
 ## 环境、工具
 windows 10  64位 <br>  
@@ -13,7 +15,10 @@ AbsoluteLayout.jar <br>
 swing-layout-1.0.3.jar  //前两个位布局包 <br>  
 RXTXcomm.jar            //Java对串口编程的API包（64位），放一份至jre-lib-ext下面 <br>  
 beautyeye_lnf.jar       //针对swing界面的优化包 <br>  
-其他包根据需要添加，比如mysql-connector-java.jar等
+其他包根据需要添加,比如: <br>  
+mysql-connector-java.jar 用于连接MySQL<br>  
+httpclient-4.5.jar <br>  
+httpcore-4.4.4.jar  用于实现get、post请求<br>  
 
 ## 步骤
 1.新建Java Project name=JavaSerialPort <br>  
