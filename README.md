@@ -32,3 +32,20 @@ httpcore-4.4.4.jar  用于实现get、post请求<br>
 5.ui包右键选择NEW--OTHER--WindowBuilder--Swing Designer--JFrame <br>  
   进行界面模型规划 <br>  
 6.具体实现 down project runing 试试.
+
+
+# github文件上传指令
+$ git config --global user.name "xxx" <br>
+$ git config --global user.email "xxx@139.com" <br>
+cd ~/.ssh 检查密钥 <br>
+$ ssh-keygen -t rsa -C "xxx@139.com"  密钥在.ssh/id_rsa.pub <br>
+Add SSH key新增密钥 <br>
+创建一个本地项目仓库 <br>
+仓库内执行指令： <br>
+git init <br>
+git add . <br>
+git commit -m "提交文件" <br>
+git remote add origin https://github.com/xxx/text.git <br>
+git pull --rebase origin master <br>
+git push -u origin master
+
